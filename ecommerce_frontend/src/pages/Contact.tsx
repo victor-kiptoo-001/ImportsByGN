@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           <div className="description">
             <span>We are available 24/7, 7 days a week.</span>
-            <span>Phone: +91 1234567890</span>
+            <span>Phone: +254796681150</span>
           </div>
         </div>
         <div className="call">
@@ -70,8 +70,8 @@ const Contact = () => {
             <span>
               Fill out our form and we will contact you within 24 hours.
             </span>
-            <span>Emails: customer@bytebazaar.com</span>
-            <span>Emails: support@bytebazaar.com</span>
+            <span>Emails: customer@imports.com</span>
+            <span>Emails: support@imports.com</span>
           </div>
         </div>
       </div>

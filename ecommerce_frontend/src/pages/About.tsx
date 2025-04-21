@@ -17,15 +17,15 @@ const About = () => {
         <div className="intro">
           <h1>Our Story</h1>
           <p>
-            Launced in 2023, ByteBazaar is Asia's premier online shopping
-            makterplace with an active presense in India. Supported by wide
-            range of electronic's marketing, data and service solutions. ByteBazaar
-            has 10,500 sellers and 300 brands and serves 3 millions customers
+            Launced in 2023 ImportsByGN is Kenya's premier online shopping
+            marketplace with an active presense in Kenya. Supported by wide
+            range of electronic's marketing, data and service solutions. ImportsByGN
+            has 300 brands and serves 5000 customers
             across the region.{" "}
           </p>
           <p>
-            ByteBazaar has more than 1 Million products to offer, growing at a
-            very fast. ByteBazaar offers a diverse allotment in categories
+           ImportsByGN has more than 10,000 different products to offer, growing at a
+            very fast. ImportsByGN offers a diverse allotment in categories
             ranging from consumer.
           </p>
         </div>
@@ -39,7 +39,7 @@ const About = () => {
             <BsShop />
           </div>
           <div className="details ">
-            <h2>10.5k</h2>
+            <h2>MANY</h2>
             <p>Sellers active our site</p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const About = () => {
             <HiOutlineCurrencyRupee />
           </div>
           <div className="details">
-            <h2>33k</h2>
+            <h2>2000</h2>
             <p>Monthly Product Sale</p>
           </div>
         </div>
@@ -57,7 +57,7 @@ const About = () => {
             <FaShoppingBag />
           </div>
           <div className="details">
-            <h2>45.5k</h2>
+            <h2>10k</h2>
             <p>Customer active in our site</p>
           </div>
         </div>
@@ -73,7 +73,7 @@ const About = () => {
       </div>
       <div className="person">
       <Profile
-        name="Jose P. Vigil"
+        name="Victor Kiptoo"
         role="Founder & Chairman"
         img="https://res.cloudinary.com/da9skd1ks/image/upload/v1706444003/ecommerce-assets/i9nv5xl6zfu1ilivbgxy"
         social={{
@@ -83,7 +83,7 @@ const About = () => {
         }}
       />
       <Profile
-        name="Juanita J. Warren"
+        name="John Doe"
         role="Managing Director"
         img="https://res.cloudinary.com/da9skd1ks/image/upload/v1706444003/ecommerce-assets/tyb7wlg2tavgdkjwbqrk"
         social={{
