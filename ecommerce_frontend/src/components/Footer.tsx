@@ -18,7 +18,7 @@ const Footer = () => {
         <p>Get 10% off your first order</p>
 
         <a
-          href="https://github.com/dipandhali2021/Ecommerce"
+          href="https://github.com/victor-kiptoo-001/ImportsByGN"
           target="_blank"
           className="github"
           rel="noopener noreferrer"
@@ -29,9 +29,9 @@ const Footer = () => {
       </div>
       <div className="subscribe">
         <h2>Support</h2>
-        <p> 512/14, 5 Th Floor, Raheja Chamber, Nariman Point</p>
-        <p>help@bytebazaar.com</p>
-        <p> +02222881098</p>
+        <p> Elijah Cheruiyot, Eldoret</p>
+        <p>help@imports.com</p>
+        <p> +254796681150</p>
       </div>
       <div className="subscribe">
         <h2>Account</h2>
@@ -50,7 +50,7 @@ const Footer = () => {
       </div>
       <div className="subscribe">
         <h2>Download App</h2>
-        <p>Save $3 with App New User Only</p>
+        <p>Save with ImportsByGN</p>
         <div className="download-app">
           <div className="qr">
             <img src="https://res.cloudinary.com/da9skd1ks/image/upload/v1706444003/ecommerce-assets/fz9c9dppqbiqz2oa1qle" alt="qr" />
@@ -1205,8 +1205,8 @@ export const TermsOfUse = () => {
         In order to resolve a complaint regarding the Services of to receive
         further information regarding use of the Services, please contact us at:
       </p>
-      <p>BigBazaar H4,II TOMY Jabalpur, Madhya Pradesh 482005 India</p>
-      <p>Phone: 7742002899 dipandhali2021@gmail.com</p>
+      <p>Elijah Cheruiyot St , Eldoret  Kenya</p>
+      <p>Phone: +254796681150 imports@gmail.com</p>
       <p>
         These terms of use were created using Termly&#39;s Terms and Conditions
         Generator.

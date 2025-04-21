@@ -48,7 +48,7 @@ const Header = () => {
       <nav className="offer">
         <div className="offer-deatils">
           <p>
-            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+            Shop With Us!
           </p>
         </div>
 
