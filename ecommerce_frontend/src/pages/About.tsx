@@ -73,7 +73,7 @@ const About = () => {
       </div>
       <div className="person">
       <Profile
-        name="Victor Kiptoo"
+        name="Donald Trump"
         role="Founder & Chairman"
         img="https://res.cloudinary.com/da9skd1ks/image/upload/v1706444003/ecommerce-assets/i9nv5xl6zfu1ilivbgxy"
         social={{
@@ -83,7 +83,7 @@ const About = () => {
         }}
       />
       <Profile
-        name="John Doe"
+        name="Donald Trump"
         role="Managing Director"
         img="https://res.cloudinary.com/da9skd1ks/image/upload/v1706444003/ecommerce-assets/tyb7wlg2tavgdkjwbqrk"
         social={{

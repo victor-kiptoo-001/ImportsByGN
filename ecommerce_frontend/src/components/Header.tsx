@@ -57,14 +57,15 @@ const Header = () => {
         </div>
       </nav>
       <nav className="header">
-        <Link className="logo" to={"/"}>
-          <span>B</span>
-          <p>yte</p>
-          <span>B</span>
-          <p>azaar</p>
-        </Link>
-
-        <div className="navigation">
+      <Link className="logo" to={"/"}>
+  <span>I</span>
+  <p>mports</p>
+  <span>B</span>
+  <p>y</p>
+  <span>G</span>
+  <p>N</p>
+</Link>
+  <div className="navigation">
           <Link to={"/"}>Home</Link>
           <Link to={"/contact"}>Contact</Link>
           <Link to={"/about"}>About</Link>

@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="subscribe">
-        <h1>ByteBazaar</h1>
+        <h1>Imports By GN</h1>
         <h3>Subscribe</h3>
         <p>Get 10% off your first order</p>
 
@@ -38,7 +38,7 @@ const Footer = () => {
         <Link to="/my-account">My Account</Link>
         <Link to="/login">Login/Register</Link>
         <Link to="/cart">Cart</Link>
-        <Link to="/wishlist">Whislist</Link>
+        <Link to="/wishlist">Wishlist</Link>
         <Link to="/search">Shop</Link>
       </div>
       <div className="subscribe">

@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+## ByteBazaar Backend
+Welcome to the backend of ByteBazaar, the engine that powers our seamless ecommerce platform for electronic gadgets. This backend is built using the  MongoDB, Express.js,Node.js stack and incorporates various technologies to ensure robust functionality.
+Every file written in TypeScript.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies Used
 
-## Available Scripts
+- __Node.js__: A JavaScript runtime that executes server-side code.
+- __Express.js__: A backend web application framework for Node.js that simplifies the development of APIs.
+- __MongoDB__: A NoSQL database that stores data in JSON-like documents.
+- __Mongoose__: An ODM (Object Data Modeling) library for MongoDB and Node.js.
+- __TypeScript__: A superset of JavaScript that adds static typing and other features.
+- __Postman__: A collaboration platform for API development, used for testing and documenting APIs.
+- __UUID__: A universally unique identifier library for generating unique IDs.
+- __Morgan__: A middleware for logging HTTP requests.
+- __Stripe__: Payment API for secure and efficient online transactions.
+- __Cache__: Implementation of caching for optimizing data retrieval and response times.
+- __Multer__: Middleware for handling multipart/form-data, commonly used for file uploads.
+- __Cloudinary__: Cloud-based image and video management service for handling media uploads and storage.
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Separate Admin Dashboard API for easy management.
+- Add, update, and delete products API.
+- Visualize sales and marketing data API.
+- Integration with Stripe Payment API for secure online transactions.
+- Implementation of caching for optimized data retrieval.
+- Middleware for handling file uploads using Multer and Cloudinary.
+- User authentication and secure logins with Firebase Auth.
+- TypeScript for enhanced code quality and maintainability.
+- UUID for generating unique identifiers.
+- Postman for testing and documenting APIs.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
+Follow these steps to set up the ByteBazaar backend on your local machine.
 
-### `npm test`
+### Prerequisites
+- Node.js installed on your machine
+- MongoDB installed and running
+#### Navigate to the Project Directory
+```
+cd ByteBazaar-backend
+```
+#### Install Dependencies
+```
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Set Up Environment Variables
+Rename the `.env.sample` to ``.env``  in the root directory and configure the following variables:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+MONGO_URI=
+PRODUCTS_PER_PAGE=
+STRIPE_KEY=
+PORT=
+```
+Visit and Login [Stripe](https://www.stripe.com) for getting stripe key (under API key for developer get the secret key).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Run the Application
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Running Watch Mode for TypeScript
+```
+npm run watch
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Running development server
+```
+npm run dev
+```
+Remember: Use different Terminal for watch mode and dev server
+Run `mongo` if any error while connecting to MongoDB compass Localhost
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Visit` http://localhost:4000` in your browser to check if the API is running ok.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
+We welcome contributions! Feel free to open issues or pull requests.
 
-### Code Splitting
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
+- Inspired by the need for a user-friendly electronic shop platform.
+- Thanks to the open-source community for the valuable tools and libraries.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Enjoy your ByteBazaar shopping experience!
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

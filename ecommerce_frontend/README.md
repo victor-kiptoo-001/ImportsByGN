@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# ByteBazaar Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the frontend of ByteBazaar, your ultimate destination for electronic gadgets. This React.js-based user interface provides an intuitive and seamless experience for customers exploring and purchasing electronic products.
 
-## Available Scripts
+## Features
+#### Clean and Simple UI
+ByteBazaar boasts a clean and simple user interface, ensuring a user-friendly experience for all visitors.
 
-In the project directory, you can run:
+#### Product Exploration
+Explore a wide range of electronic products effortlessly categorized for easy navigation. From the latest smartphones to cutting-edge laptops, ByteBazaar has it all.
 
-### `npm start`
+#### Easy Ordering Process
+Place orders seamlessly with a straightforward and intuitive ordering process. Add products to your cart and complete your purchase with just a few clicks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Order History
+View your order history to keep track of past purchases. This feature allows customers to revisit previous orders and check order details.
 
-### `npm test`
+#### Responsive Design
+ByteBazaar is designed with a responsive layout, ensuring a consistent and optimized experience across various devices, including desktops, tablets, and smartphones.
+(Still Working on it)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+__React.js__: A powerful JavaScript library for building user interfaces.
 
-### `npm run build`
+__Sass:__ A popular CSS preprocessor that adds power and elegance to the basic language.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+__React-Table__: A lightweight and extensible data table component for React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+__React Router DOM__: A library for adding navigation to React applications.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+__Stripe Payment API__: Enables secure and efficient online payments.
 
-### `npm run eject`
+__Firebase Auth__: Provides authentication services for secure user logins.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+__TypeScript__: A superset of JavaScript that adds static typing and other features.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+__Axios__: A promise-based HTTP client for making requests to the server.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+__Redux__: A state management library for managing the state of the application in a predictable way.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Test Admin Login
+email:test@gmail.com
+password:123456
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Getting Started
+Follow these steps to set up the ByteBazaar frontend on your local machine.
 
-### Code Splitting
+### Prerequisites
+- Node.js installed on your machine
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+__Clone the Repository__
+```
+git clone https://github.com/your-username/ByteBazaar-frontend.git
+```
+__Navigate to the Project Directory__
 
-### Analyzing the Bundle Size
+```
+cd ecommerce_frontend
+```
+__Install Dependencies__
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm install
+```
+__Run the Application__
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Set Up Environment Variables
+Rename the `.env.sample` to `.env` in the root directory and configure the following variables:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+VITE_FIREBASE_KEY=
+VITE_AUTH_DOMAIN=
+VITE_PROJECT_ID=
+VITE_STORAGE_BUCKET=
+VITE_MESSAGING_SENDER_ID=
+VITE_APP_ID=
+VITE_MEASUREMENT_ID=
+VITE_STRIPE_KEY=
+VITE_SERVER=
+```
+- Visit and Login [Stripe](https://www.stripe.com) for getting vite stripe key (under API key for developer get the Publishable key).
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Visit and Login [Firbase](https://www.firebase.com) for getting vite firebase keys.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Run the Application
+
+```
+npm run dev
+```
+Visit `http://localhost:3000` in your browser to explore the ByteBazaar frontend.
+
+## Contributing
+We welcome contributions! Feel free to open issues or pull requests.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+- Inspired by the need for a user-friendly electronic shop platform.
+- Thanks to the open-source community for the valuable tools and libraries.
+
+
+Enjoy your ByteBazaar shopping experience!
+
+
