@@ -17,15 +17,7 @@ const Footer = () => {
         <h3>Subscribe</h3>
         <p>Get 10% off your first order</p>
 
-        <a
-          href="https://github.com/victor-kiptoo-001/ImportsByGN"
-          target="_blank"
-          className="github"
-          rel="noopener noreferrer"
-        >
-          <p>Github</p>
-          <FaGithub />
-        </a>
+        
       </div>
       <div className="subscribe">
         <h2>Support</h2>
@@ -49,12 +41,10 @@ const Footer = () => {
         <Link to="/contact">Contact</Link>
       </div>
       <div className="subscribe">
-        <h2>Download App</h2>
-        <p>Save with ImportsByGN</p>
+        
+        
         <div className="download-app">
-          <div className="qr">
-            <img src="https://res.cloudinary.com/da9skd1ks/image/upload/v1706444003/ecommerce-assets/fz9c9dppqbiqz2oa1qle" alt="qr" />
-          </div>
+          
           <div className="link">
             <div className="play-store">
               <img src="https://res.cloudinary.com/da9skd1ks/image/upload/v1706444003/ecommerce-assets/fdlacfscxsgivr02ianu" alt="qr" />
