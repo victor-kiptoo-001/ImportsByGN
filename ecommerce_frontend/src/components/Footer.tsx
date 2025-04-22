@@ -98,7 +98,7 @@ export const PrivacyPolicy = () => {
       <h1>Privacy Policy of Dipan</h1>
 
       <p>
-        Dipan operates the bytebazaar.com website, which provides the SERVICE.
+        Victor operates the  website, which provides the SERVICE.
       </p>
 
       <p>
@@ -245,8 +245,7 @@ export const TermsOfUse = () => {
       <p>Last updated January 26, 2024</p>
       <h2>AGREEMENT TO OUR LEGAL TERMS</h2>
       <p>
-        We are ByteBazaar Company. a company registered in India at H4, IITDMJ,
-        Jabalpur, Madhya Pradesh 482005.
+        We are Imports By  a company registered in Eldoret
       </p>
       <p>
         We operate the website bytebazaar com (the &quot;Site&quot;), as well as
@@ -262,7 +261,7 @@ export const TermsOfUse = () => {
       <p>
         These Legal Terms constitute a legally binding agreement made between
         you, whether personally or on behalf of an entity (&quot;you&quot;), and
-        ByteBazaar, concerning your access to and use of the Services. You agree
+        ImportsByGN, concerning your access to and use of the Services. You agree
         that by accessing the Services, you have read, understood, and agreed to
         be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF
         THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE
