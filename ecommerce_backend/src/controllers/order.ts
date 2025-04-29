@@ -163,4 +163,3 @@ export const deleteOrder = tryCatch(async (req: Request, res, next) => {
     message: "order deleted successfully",
   });
 });
-
