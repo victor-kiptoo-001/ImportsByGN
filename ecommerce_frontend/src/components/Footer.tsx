@@ -15,13 +15,13 @@ const Footer = () => {
       <div className="subscribe">
         <h1>Imports By GN</h1>
         <h3>Subscribe</h3>
-        <p>Get 10% off your first order</p>
+        <p>Get 5% off your first order</p>
 
         
       </div>
       <div className="subscribe">
         <h2>Support</h2>
-        <p> Elijah Cheruiyot, Eldoret</p>
+        <p> Elijah Cheruiyot,Eldoret</p>
         <p>help@imports.com</p>
         <p> +254796681150</p>
       </div>
