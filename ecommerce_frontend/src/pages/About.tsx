@@ -95,7 +95,7 @@ const About = () => {
       <Profile
         name="Will Smith"
         role="Product Designer"
-        img="https://res.cloudinary.com/da9skd1ks/image/upload/v1706444003/ecommerce-assets/yxeftwqmmctrp9ugspqj"
+        img=" https://res.cloudinary.com/da9skd1ks/image/upload/v1706444003/ecommerce-assets/yxeftwqmmctrp9ugspqj"
         social={{
           instagram: <FaInstagram />,
           linkedin: <FaLinkedinIn />,
