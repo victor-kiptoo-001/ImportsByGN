@@ -83,7 +83,7 @@ const About = () => {
         }}
       />
       <Profile
-        name="Donald Trump"
+        name="I Am"
         role="Managing Director"
         img="https://res.cloudinary.com/da9skd1ks/image/upload/v1706444003/ecommerce-assets/tyb7wlg2tavgdkjwbqrk"
         social={{
