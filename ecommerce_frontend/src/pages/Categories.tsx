@@ -12,15 +12,7 @@ const Categories = () => {
   const params = useParams();
   const dispatch = useDispatch();
 
-  const { isLoading: productLoading, data: categoryData } =
-    useSearchProductsQuery({
-      category: params.category || "",
-      price: 0,
-      page: 1,
-      search: "",
-      sort: "",
-    });
-
+  
   const addToCartHandler = (cartItem: CartItem) => {
     if (cartItem?.stock < cartItem.quantity) return toast.error("Out of Stock");
     dispatch(addToCart({ ...cartItem }));
