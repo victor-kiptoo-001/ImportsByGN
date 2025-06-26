@@ -38,7 +38,7 @@ const Categories = () => {
         <>
           <h1 className="heading">{params.category}</h1>
 
-          <div className="categories">
+          <div className="category">
             {productLoading ? (
               <Skeleton width="80vw" />
             ) : (
