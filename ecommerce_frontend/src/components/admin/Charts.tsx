@@ -239,5 +239,5 @@ export const LineChart = ({
     ],
   };
 
-  return <Table options={options} data={lineChartData} />;
+  return <Line options={options} data={lineChartData} />;
 };
