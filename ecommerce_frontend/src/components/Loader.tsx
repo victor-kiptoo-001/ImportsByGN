@@ -1,4 +1,4 @@
-const Loader = () => {Add commentMore actions
+const Loader = () => {
   return (
     <section className="loader">
       <div></div>
