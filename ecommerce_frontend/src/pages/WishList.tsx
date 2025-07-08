@@ -25,7 +25,7 @@ const WishList = () => {
   if (wishlist.length == 0)
     return <h1 className="heading margin">No Wishlist Items Selected</h1>;
   return (
-    <div className="wishlist">
+    <div className="Wishlist">
       {loading ? (
         <Skeleton />
       ) : (
