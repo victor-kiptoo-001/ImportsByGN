@@ -1,18 +1,21 @@
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
+
+// Firebase config using your latest values
 const firebaseConfig = {
-  apiKey: "AIzaSyCV9vUeFcrtvy_qeVAsXWxR1e31q0Hp0Vk",
-  authDomain: "e-commerce-7fd91.firebaseapp.com",
-  projectId: "e-commerce-7fd91",
-  storageBucket: "e-commerce-7fd91.firebasestorage.app",
-  messagingSenderId: "1017242549787",
-  appId: "1:1017242549787:web:d220a2594a986b5fe342be",
-  measurementId: "G-FLHN3WXNJF"
+  apiKey: "AIzaSyDyUPtGRm96mL9QqApQaXVklrHcqc9bArM",
+  authDomain: "ecommerce-4889a.firebaseapp.com",
+  projectId: "ecommerce-4889a",
+  storageBucket: "ecommerce-4889a.firebasestorage.app",
+  messagingSenderId: "524041120512",
+  appId: "1:524041120512:web:880ce1027f01551ea121e5",
+  measurementId: "G-TB9XB4VGXR"
 };
 
-
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+export const analytics = getAnalytics(app);
 export const auth = getAuth(app);
 export const db = getDatabase(app);
-
