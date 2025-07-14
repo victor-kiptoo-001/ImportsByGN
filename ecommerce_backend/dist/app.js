@@ -1,6 +1,5 @@
 import express from "express";
 import NodeCache from "node-cache";
-import { config } from "dotenv";
 //importing routes
 import userRoute from "./routes/user.js";
 import productRoute from "./routes/product.js";
@@ -13,9 +12,10 @@ import { ErrorMiddleware } from "./middlewares/error.js";
 import cors from "cors";
 import morgan from "morgan";
 import Stripe from "stripe";
-config({
-    path: "./.env",
-});
+import dotenv from "dotenv";
+dotenv.config();
+console.log("Connecting to Mongo with URI:", process.env.MONGO_URI);
+connectDB(process.env.MONGO_URI);
 const port = process.env.PORT || 4000;
 const mongoURI = process.env.MONGO_URI || "";
 const stripeKey = process.env.STRIPE_KEY || "";
