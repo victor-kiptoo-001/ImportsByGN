@@ -10,7 +10,7 @@ import {
 } from "../controllers/order.js";
 import { adminOnly } from "../middlewares/auth.js";
 
-const app = express.Router();
+const app = Router();
 
 //route - /api/v1/oder/new
 app.post("/new", newOrder);
