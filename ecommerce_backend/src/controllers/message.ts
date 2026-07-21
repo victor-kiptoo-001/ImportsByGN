@@ -45,4 +45,9 @@ export const deleteMessage = tryCatch(async (req, res, next) => {
   const message = await Message.findById(id);
   if (!message) return next(new ErrorHandler("User not found", 404));
 
- 
+  await message.deleteOne();
+  return res.status(200).json({
+    success: true,
+    message: "Message deleted successfully",
+  });
+});
